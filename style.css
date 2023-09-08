@@ -543,12 +543,12 @@ p{
   padding: 4em;
 }
 
-.pri, .sec-sec{
+.fi, .sec-sec{
     background: red;
     align-items: flex-end;
 }
 
-.sec{
+.seco{
     background: url('/img/guy-smile.png') center center no-repeat;
     background-size: cover;
   }
