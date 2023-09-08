@@ -328,9 +328,9 @@ p{
     height: 40px;
     line-height: 40px;
     border-radius: 50px;
-    background-color: #e8f6ea;
-    color: #088178;
-    border: 1px solid #cce7d0;
+    background-color: #e1eef7;
+    color: #64befb;
+    border: 1px solid #d3e6f2;
     position: absolute;
     bottom: 20px;
     right: 10px;
@@ -417,7 +417,7 @@ p{
 }
 
 #banner{
-    min-height: 50vh;
+    min-height: 45vh;
     background: url(/img/banner.png) center center no-repeat;
     background-size: cover;
 }
@@ -475,9 +475,88 @@ p{
 
 /*SET US APART*/
 
+#set-us-apart{
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 9%;
+}
 
+.set-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    text-align: center;
+}
 
+.set-container .set{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    position: relative;
+    margin-bottom: 5%;
+}
 
+.set-container .info{
+    text-align:center;
+    padding-top: 10%;
+}
+
+#set-us-apart h2{
+    color: black;
+    font-weight: 300;
+    padding-top: 30px;
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: -0,75px;
+}
+
+.info h3{
+    padding-bottom: 7%;
+    font-weight: 600;
+}
+
+.info span{
+    font-weight: 300;
+}
+
+.section-p3{
+    padding: 40px 10px;
+}
+
+/*MORE INFO*/ 
+
+.more-info-first, .more-info-second{
+    display: flex;
+  color: #fff;
+  min-height: 50vh;
+}
+
+.more-info{
+    flex-basis: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4em;
+}
+
+.pri, .sec-sec{
+    background: red;
+    align-items: flex-end;
+}
+
+.sec{
+    background: url('/img/guy-smile.png') center center no-repeat;
+    background-size: cover;
+  }
+
+.sec-pri{
+    background: url('/img/more-glasses.png') center center no-repeat;
+    background-size: cover;
+  }
 
 
 
