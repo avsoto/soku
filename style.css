@@ -270,7 +270,7 @@ p{
 
 #product1 .pro-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
     flex-wrap: wrap;
 
@@ -417,7 +417,7 @@ p{
 }
 
 #banner{
-    min-height: 45vh;
+    min-height: 60vh;
     background: url(/img/banner.png) center center no-repeat;
     background-size: cover;
 }
@@ -462,7 +462,7 @@ p{
       }
 
     #banner {
-        min-height: 40vh;    }
+        min-height: 50vh;    }
 
     }
   
