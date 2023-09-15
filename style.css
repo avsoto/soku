@@ -236,7 +236,7 @@ p{
 .main-products-container{
     width: 100%;
     height: auto;
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 90px;
     align-items: center;
 }
@@ -255,6 +255,12 @@ p{
 
 .separator{
     opacity: .2;
+}
+
+.main-products-title h2{
+    margin-left: 7%;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 
@@ -305,7 +311,7 @@ p{
 
 #product1 .pro .des span{
     color: #606063;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #product1 .pro .des span{
@@ -356,7 +362,7 @@ p{
     
     #product1 .pro {
     width: 23%;
-    min-width: 240px;
+    min-width: 200px;
 }
 
 
@@ -458,6 +464,10 @@ p{
     line-height: 25px;
   }
 
+
+
+
+
   @media (min-width: 1100px) {
    
     .item h1 {
@@ -471,6 +481,11 @@ p{
     .item p{
         font-size: 95%;
     }
+
+    #banner{
+        min-height: 35vh;
+    }
+    
 
     }
     
@@ -557,7 +572,7 @@ p{
 
 .more-info-first , .more-info-second{
 display: flex;
-  min-height: 10vh;
+  min-height: 40vh;
 }
 
 .more-info-first {
@@ -593,9 +608,13 @@ flex-basis: 0;
 
 .more-info h1{
     color: black;
-    font-size: 150%;
+    font-size: 250%;
     line-height: 120%;
     text-align: left;
+}
+
+span{
+    font-size: 110%;
 }
 
 .more-info span{
@@ -603,7 +622,6 @@ flex-basis: 0;
     padding-top:5%;
     padding-bottom: 5%;
     font-weight: 300;
-    font-size: 105%;
     /*text-align: justify;
      display:block;*/
 }
@@ -663,34 +681,24 @@ flex-basis: 0;
     letter-spacing: -0.255px;
 }
 
-@media (max-width: 4000px) {
+@media (max-width: 1200px) {
     .more-info-first , .more-info-second{
-      min-height: 35vh;
+      min-height: 30vh;
     }
 
     .more-info h1 {
         font-size: 240%;
     }
 
-
   }
 
 
-@media (max-width: 1200px) {
+  @media(max-width: 900px){
     .more-info-first , .more-info-second{
-      min-height: 30vh;
-    }
-
-
-  }
+        min-height: 25vh;
+      }
   
-  @media (max-width: 971px) {
-    .more-info-first , .more-info-second{
-      min-height: 30vh;
-    }
-  }
 
-  @media(max-width: 490px){
     .fi, .sec-sec{
         padding: 2.6rem;
     }
@@ -705,7 +713,7 @@ flex-basis: 0;
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 25vh;
+    height: 30vh;
   }
 
   #subscribe-section h4{
