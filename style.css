@@ -457,7 +457,7 @@ p{
 }
 
   .item p {
-    font-size: 80%;
+    font-size: 100%;
     color: black;
     width: 66%;
     padding-bottom: 10px;
@@ -478,9 +478,6 @@ p{
         font-size: 120%;
     }
 
-    .item p{
-        font-size: 95%;
-    }
 
     #banner{
         min-height: 35vh;
@@ -496,12 +493,23 @@ p{
 
     #banner {
         min-height: 50vh;    }
+    
+    .item p{
+        font-size: 100%;
     }
+    
+    }
+
+    
   
   @media (max-width: 576px) {
     .item {
         padding: 2em;
       }
+
+      .item p{
+        font-size: 90%;
+    }
 
   }
 
@@ -563,6 +571,16 @@ p{
     padding: 40px 10px;
 }
 
+
+@media(max-width: 900px){
+
+    #set-us-apart h2 {
+        font-size: 40px;
+    }
+
+}
+
+
 /*MORE INFO*/ 
 
 .info{
@@ -614,7 +632,7 @@ flex-basis: 0;
 }
 
 span{
-    font-size: 110%;
+    font-size: 95%;
 }
 
 .more-info span{
@@ -682,6 +700,7 @@ span{
 }
 
 @media (max-width: 1200px) {
+    
     .more-info-first , .more-info-second{
       min-height: 30vh;
     }
@@ -694,14 +713,32 @@ span{
 
 
   @media(max-width: 900px){
-    .more-info-first , .more-info-second{
-        min-height: 25vh;
-      }
-  
 
-    .fi, .sec-sec{
-        padding: 2.6rem;
+    .info{
+        margin-left: 5%;
+        margin-right: 5%;
     }
+
+    .fi, .sec-sec {
+        padding: 0.5rem;
+    }
+
+    .more-info-first , .more-info-second{
+        min-height: 30vh;
+      }
+
+      .more-info h1 {
+        font-size: 170%;
+    }
+
+    .more-info span {
+        font-size: 80%;
+    }
+
+    .btn-more-info, .btn-more-info-sec{
+        height: 30px;
+    }
+
   }
 
   /*SUBSCRIBE*/
@@ -714,16 +751,18 @@ span{
     text-align: center;
     width: 100%;
     height: 30vh;
+    margin-top: 8%;
+    margin-bottom: 8%;
   }
 
   #subscribe-section h4{
     color: #000;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #subscribe-section h2{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px 0;
   }
 
@@ -742,11 +781,45 @@ span{
     height: 40px;
     padding: 6px;
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: rgba(65, 75, 86, 1);
     flex-shrink: 0;
     border: 1px solid rgba(161, 164, 166, 1);;
     border-radius: 100px;
+  }
+
+
+  @media(max-width: 900px){
+    #subscribe-section{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+
+    #subscribe-section h4{
+        font-size: 120%;
+      }
+    
+  #subscribe-section h2{
+    font-size: 150%;
+  }
+
+  button.normal{
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+    font-size: 0.6rem;
+  }
+
+  }
+
+
+  @media(max-width: 500px){
+    #subscribe-section{
+        margin-top: 13%;
+        margin-bottom: 13%;
+    }
+
   }
 
 
