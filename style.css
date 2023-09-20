@@ -552,7 +552,7 @@ p{
 
 #banner{
     min-height: 35vh;
-    background: url(/img/banner.png) center center no-repeat;
+    background: url("https://raw.githubusercontent.com/avsoto/soku/main/img/banner.png") center center no-repeat;
     background-size: cover;
 }
 
@@ -735,14 +735,14 @@ flex-basis: 0;
 }
 
 .seco{
-    background: url('/img/guy-smile.png') center center no-repeat;
+    background: url('https://raw.githubusercontent.com/avsoto/soku/main/img/guy-smile.png') center center no-repeat;
     background-size: cover;
     background-position-x: center;
     width: 50%;
   }
 
 .sec-pri{
-    background: url('/img/more-glasses.png') center center no-repeat;
+    background: url('https://raw.githubusercontent.com/avsoto/soku/main/img/more-glasses.png') center center no-repeat;
     background-size: cover;
     background-position-x: center;
 
