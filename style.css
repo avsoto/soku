@@ -29,9 +29,6 @@ a{
     font-size: 1rem;
 }
 
-a:hover{
-    color:rgb(216, 216, 216);
-}
 
 
 /*HEADER*/
@@ -62,6 +59,32 @@ header{
     display: flex;
     gap: 2rem;
 }
+
+a.underline-on-hover {
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  a.underline-on-hover::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    background-color: #000000; 
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: center bottom;
+    transition: transform 0.3s ease; 
+  }
+  
+
+  a.underline-on-hover:hover::before {
+    transform: scaleX(1);
+  }
+  
+
 
 .navbar .links a{
     font-size: 0.9rem;
@@ -110,7 +133,7 @@ header{
     color: #222;
     font-size: 100%;
     font-weight: 400;
-    margin: 20px;
+    margin: 10%;
 }
 
 #sidebar .toggle_btn{
@@ -250,14 +273,15 @@ main{
 }
 
 h1{
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-weight: 600;
-    line-height: 2.8rem;
+    line-height: 3.8rem;
     color: white;
+    margin-bottom: 1.5%;
 }
 
 p{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 1.8rem;
     color: white;
@@ -290,6 +314,48 @@ p{
     border: 2px solid rgb(255, 255, 255);  
 }
 
+.slide-button {
+    font-size: 0.9rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+    border: none;
+    padding: 20px 100px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.slide-button .text-visible,
+.slide-button .text-hidden {
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+
+}
+
+.slide-button .text-hidden {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.slide-button:hover .text-visible {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.slide-button:hover .text-hidden {
+    transform: translateY(0);
+    opacity: 1;
+}
+
 .main-products-container{
     width: 100%;
     height: auto;
@@ -316,7 +382,7 @@ p{
 
 .main-products-title h2{
     margin-left: 7%;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 20px;
 }
 
@@ -441,6 +507,11 @@ p{
     .section-p1 {
         padding: 20px 20px;
     }
+}
+
+
+.section-p1 .slide-button{
+    background-color: rgb(246, 246, 247);
 }
 
 .product--button{
@@ -636,7 +707,7 @@ p{
 
 /*MORE INFO*/ 
 
-.info{
+.info-section{
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -708,9 +779,17 @@ span{
     flex-shrink: 0;
     border: 1px solid rgba(161, 164, 166, 1);;
     border-radius: 100px;
-  
 }
 
+.fi .slide-button{
+    background-color: rgb(246, 246, 247);
+    padding: 6px;    
+}
+
+.more-info-second .slide-button{
+    background-color: rgb(246, 246, 247);
+    padding: 6px;    
+}
 
 .fi a{
     text-decoration: none;
@@ -720,7 +799,7 @@ span{
 }
 
 
-.sec-sec h1, .sec-sec span{
+.sec-sec h1, .more-info-second .description{
     text-align: right;
 }
 
@@ -767,7 +846,7 @@ span{
 
   @media(max-width: 900px){
 
-    .info{
+    .info-section{
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -804,8 +883,8 @@ span{
     text-align: center;
     width: 100%;
     height: 30vh;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 
   #subscribe-section h4{
@@ -817,29 +896,59 @@ span{
     color: black;
     font-size: 25px;
     padding: 10px 0;
+    margin-left: 3%;
+    margin-right: 3%;
+
   }
 
   #subscribe-section h2 span{
     color: #64befb;
   }
 
-  button.normal{
+.button-normal{
     padding: 15px 30px;
     cursor: pointer;
     border: none;
     transition: 0.2s;
-    background-color: transparent;
-    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1%;
     width: 150px;
     height: 40px;
     padding: 6px;
     text-align: center;
-    font-size: 0.7rem;
-    color: rgba(65, 75, 86, 1);
+    font-size: 0.9rem;
     flex-shrink: 0;
-    border: 1px solid rgba(161, 164, 166, 1);;
-    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+    .button-normal .text-visible,
+    .button-normal .text-hidden {
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+
+}
+
+.button-normal .text-hidden {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.button-normal:hover .text-visible {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.button-normal:hover .text-hidden {
+    transform: translateY(0);
+    opacity: 1;
+}
 
 
   @media(max-width: 900px){
@@ -944,8 +1053,20 @@ span{
 
 
 
+.section-p4, .section-p3, .info-section, .section-p2, .main-products-container, .hero {
+    opacity: 0; /* Inicialmente, la sección está oculta */
+    transform: translateY(20px); /* La sección se desplaza hacia abajo */
+    transition: opacity 0.5s ease-in-out, transform 1s ease-in-out;
+    /* Transición suave para opacity y transform durante 1 segundo */
+    margin-bottom: 50px; /* Espacio entre las secciones */
+}
 
 
+
+.section-p4.active, .section-p3.active, .info-section.active, .section-p2.active, .main-products-container.active, .hero.active{
+        opacity: 1; /* La sección aparecerá gradualmente */
+        transform: translateY(0); /* La sección vuelve a su posición original */
+}
 
 
 
