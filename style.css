@@ -359,8 +359,7 @@ p{
 .main-products-container{
     width: 100%;
     height: auto;
-    padding-top: 60px;
-    padding-bottom: 90px;
+    padding-top: 40px;
     align-items: center;
 }
 
@@ -395,6 +394,7 @@ p{
 
 #product1{
     text-align: center;
+    
 }
 
 #product1 .pro-container{
@@ -402,7 +402,6 @@ p{
     justify-content: space-around;
     padding-top: 20px;
     flex-wrap: wrap;
-
 }
 
 #product1 .pro{
