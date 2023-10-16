@@ -1057,21 +1057,18 @@ span{
 
 
 .section-p4, .section-p3, .info-section, .section-p2, .main-products-container, .hero {
-    opacity: 0; /* Inicialmente, la sección está oculta */
-    transform: translateY(20px); /* La sección se desplaza hacia abajo */
+    opacity: 0; 
+    transform: translateY(20px);
     transition: opacity 0.5s ease-in-out, transform 1s ease-in-out;
-    /* Transición suave para opacity y transform durante 1 segundo */
-    margin-bottom: 50px; /* Espacio entre las secciones */
+    margin-bottom: 50px; 
 }
 
 
 
 .section-p4.active, .section-p3.active, .info-section.active, .section-p2.active, .main-products-container.active, .hero.active{
-        opacity: 1; /* La sección aparecerá gradualmente */
-        transform: translateY(0); /* La sección vuelve a su posición original */
+        opacity: 1; 
+        transform: translateY(0); 
 }
-
-
 
 
 
