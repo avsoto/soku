@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="file.js"></script>
-    <script type="text/javascript" src="productos.js" async></script>
+    <script type="text/javascript" src="products.js" async></script>
+    <script type="text/javascript" src="listOfTypes.js" async></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -85,8 +86,9 @@
             <div class="main-products-title">
 
                 <h2>BESTSELLERS</h2>
-                <ul class="titles">
-                    <li>
+                <ul class="titles" id="tbody-types">
+                    <span classs='separator'>|</span>
+                   <!-- <li>
                        <a class="title-description">Eyeglasses</a> 
                        <span class="separator">|</span>
                     </li>
@@ -96,7 +98,7 @@
                      </li>
                      <li>
                         <a class="title-description">Sales</a> 
-                     </li>
+                     </li>-->
                 </ul>
             </div>
             <section id="product1" class="section-p1">
