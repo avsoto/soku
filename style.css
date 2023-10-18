@@ -373,6 +373,7 @@ p{
     margin: 0 1.5vw;
     font-size: 0.9rem;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .separator{
