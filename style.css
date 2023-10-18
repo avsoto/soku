@@ -658,7 +658,7 @@ p{
 
 
 .section-p4{
-    padding: 80px 10px;
+    padding: 50px 10px;
 }
 
 .set-container .set{
@@ -713,6 +713,7 @@ p{
 .info-section{
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 12%;
 }
 
 .more-info-first , .more-info-second{
@@ -1053,17 +1054,12 @@ span{
     padding: 40px 50px;
 }
   
-
-
-
 .section-p4, .section-p3, .info-section, .section-p2, .main-products-container, .hero {
     opacity: 0; 
     transform: translateY(20px);
     transition: opacity 0.5s ease-in-out, transform 1s ease-in-out;
-    margin-bottom: 50px; 
+    margin-bottom: 10px; 
 }
-
-
 
 .section-p4.active, .section-p3.active, .info-section.active, .section-p2.active, .main-products-container.active, .hero.active{
         opacity: 1; 
@@ -1073,3 +1069,92 @@ span{
 
 
 
+
+
+
+
+
+
+/***nada***/
+
+
+.main-products-container2{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.section-p7{
+    padding: 5px 20px;
+    margin-bottom: 8%;
+}
+
+#product2{
+    text-align: center;
+}
+
+#product2 .pro-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#product2 .pro{
+    width: 25%;
+    min-width: 250px;
+    min-height: 450px;
+    /*border: 1px solid #cce7d0;*/
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+#product2 .pro .des span{
+    color: #606063;
+    font-size: 14px;}
+
+@media (max-width: 790px){
+    #product2 .pro {
+    width: 50%;
+    min-width: 200px;
+    min-height: 260px;
+}
+
+}
+
+
+/* Estilos para el botón "lentes" */
+.button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    background-color: rgb(246, 246, 247);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1%;
+    width: 150px;
+    height: 40px;
+    padding: 6px;
+    text-align: center;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#product2 h2{
+    color: black;
+    font-weight: 300;
+    font-size: 25px;
+    padding-bottom: 2%;
+    line-height: 72px;
+    letter-spacing: -0,75px;
+}
