@@ -5,7 +5,7 @@ Welcome to Soku! Soku is a web application developed with HTML, CSS and JavaScri
 
 1. User-friendly interface: The application provides an intuitive and visually appealing interface, mimicking the design and layout of Soku, allowing users to easily navigate and interact with the various features.
 
-2. Responsive design: The Spotify Clone is built with responsive design principles, ensuring optimal viewing and interaction experiences across a variety of devices, including desktops, tablets, and mobile phones.
+2. Responsive design: The Soku website is built with responsive design principles, ensuring optimal viewing and interaction experiences across a variety of devices, including desktops, tablets, and mobile phones.
 
 # How to use 
 1. Clone this repository: Open your terminal and use the git clone clone command. After that paste the URL from this repository. Make sure that git is installed on your computer. To check that git is installed use the git --version command. If git isn't installed on your computer use homebrew to install git brew install git.
@@ -32,7 +32,7 @@ Welcome to Soku! Soku is a web application developed with HTML, CSS and JavaScri
 <img width="1148" alt="Captura de Pantalla 2023-09-05 a la(s) 19 55 00" src="https://github.com/avsoto/soku/assets/70552802/cba4202b-7e54-4601-827a-f5a829ad3150">
 
 
-The design of this website [...]
+The design of this website [Click here](https://www.figma.com/file/8dmCfO6jzCnAoETFYBW0pM/Soku-glasses----UX1?type=design&node-id=0%3A1&mode=design&t=CPQh5VXppboEzB8q-1)
 
 # Demo
 For a live demonstration of the Soku website, you can visit the following link: **In progress**
