@@ -26,11 +26,7 @@ Welcome to Soku! Soku is a web application developed with HTML, CSS and JavaScri
 
 ### The design
 
-<img width="1145" alt="Captura de Pantalla 2023-09-05 a la(s) 19 49 29" src="https://github.com/avsoto/soku/assets/70552802/e857fde6-336e-463a-8a40-9dff3a0fe5b4">
-<img width="1149" alt="Captura de Pantalla 2023-09-05 a la(s) 19 53 16" src="https://github.com/avsoto/soku/assets/70552802/3802b0b9-4f88-4f04-b899-889f8f01f419">
-<img width="1146" alt="Captura de Pantalla 2023-09-05 a la(s) 19 54 35" src="https://github.com/avsoto/soku/assets/70552802/52e6f176-5b62-4d3b-be54-be787cd40763">
-<img width="1148" alt="Captura de Pantalla 2023-09-05 a la(s) 19 55 00" src="https://github.com/avsoto/soku/assets/70552802/cba4202b-7e54-4601-827a-f5a829ad3150">
-
+![Soku glasses -  UX1_page-0001 (1)](https://github.com/avsoto/soku/assets/70552802/b7ed061d-02bd-4503-9dff-277716ddb430)
 
 The design of this website [Click here](https://www.figma.com/file/8dmCfO6jzCnAoETFYBW0pM/Soku-glasses----UX1?type=design&node-id=0%3A1&mode=design&t=CPQh5VXppboEzB8q-1)
 
