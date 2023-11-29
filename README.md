@@ -18,19 +18,19 @@ Welcome to Soku! Soku is a web application developed with HTML, CSS and JavaScri
 
 # Technologies Used:
 
-- HTML: Used for structuring the web pages and organizing the content.
+- HTML: Structures web pages and organizes content seamlessly.
+  
+- CSS: Styles and enhances visuals, ensuring an engaging user interface.
 
-- CSS: Used for styling and visual enhancements, providing an appealing user interface.
-
-- JavaScript: Used for implementing interactive features, handling user actions, and dynamically updating the content.
+- JavaScript: Implements interactive features, manages user actions, and dynamically updates content for a dynamic user experience."
 
 # Overview of the user interface
 
 ### The design
 
+The aesthetics of this website are meticulously crafted. Explore the design intricacies on [Figma](https://www.figma.com/file/8dmCfO6jzCnAoETFYBW0pM/Soku-glasses----UX1?type=design&node-id=0%3A1&mode=design&t=CPQh5VXppboEzB8q-1), where I've shaped every detail of the web interface for an engaging and visually pleasing experience. 
+
 ![Soku glasses -  UX1_page-0001 (1)](https://github.com/avsoto/soku/assets/70552802/b7ed061d-02bd-4503-9dff-277716ddb430)
 
-The design of this website [Click here](https://www.figma.com/file/8dmCfO6jzCnAoETFYBW0pM/Soku-glasses----UX1?type=design&node-id=0%3A1&mode=design&t=CPQh5VXppboEzB8q-1)
-
 # Demo
-For a live demonstration of the Soku website, you can visit the following link: **In progress**
+For an immersive experience of the Soku website in action, feel free to explore our live demonstration at the following link: In progress.
