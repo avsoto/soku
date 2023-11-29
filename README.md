@@ -1,6 +1,8 @@
 # Soku
 Welcome to Soku! Soku is a web application developed with HTML, CSS and JavaScript that aims to create and implement a e-commerce website for an eyewear store. This project serves as a learning exercise and demonstration of front-end development skills.
 
+![Agregar un título](https://github.com/avsoto/soku/assets/70552802/42479661-66ce-466a-beea-a9672f784651)
+
 # Features: 
 
 1. User-friendly interface: The application provides an intuitive and visually appealing interface, mimicking the design and layout of Soku, allowing users to easily navigate and interact with the various features.
