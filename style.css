@@ -794,9 +794,6 @@ flex-basis: 0;
   justify-content: center;
 }
 
-.fi, .sec-sec{
- /*align-items: flex-end;*/
-}
 
 .seco{
     background: url('https://raw.githubusercontent.com/avsoto/soku/main/img/guy-smile.png') center center no-repeat;
