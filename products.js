@@ -1,4 +1,4 @@
-fetch("http://localhost/sokuservicio/productos.php")
+fetch("https://sokustore.000webhostapp.com/productos.php")
     .then(function(response){
 
         if (!response.ok){
@@ -17,7 +17,7 @@ fetch("http://localhost/sokuservicio/productos.php")
 function fillCard(data){
     $(data).each(function(index,value){
     var card = "<div class='pro'>";
-    card += "<img src='http://localhost/sokuservicio/img/"+value.image+"'>";
+    card += "<img src='https://sokustore.000webhostapp.com/img/"+value.image+"'>";
     card += "<div class='de' style='text-align: start;padding: 10px;'>";
     card += "<h5>" + value.name + "</h5>";
     card += "<span style='padding-top: 7px;color: #606063;font-size: 13px'>" + value.descriptionMaterial + "</span>";

@@ -1,4 +1,4 @@
-fetch("http://localhost/sokuservicio/types.php")
+fetch("https://sokustore.000webhostapp.com/types.php")
     .then(function(response){
 
         if (!response.ok){
@@ -40,7 +40,7 @@ function fillList(data){
 }
 
 function readProductsByTypes(idType){
-    var serviceRoute = "http://localhost/sokuservicio/productosportipo.php";
+    var serviceRoute = "https://sokustore.000webhostapp.com/productosportipo.php";
 
     //I want to send a variable to the server
     var formData = new FormData();
