@@ -33,4 +33,4 @@ The aesthetics of this website are meticulously crafted. Explore the design intr
 ![Soku glasses -  UX1_page-0001 (1)](https://github.com/avsoto/soku/assets/70552802/b7ed061d-02bd-4503-9dff-277716ddb430)
 
 # Demo
-For an immersive experience of the Soku website in action, feel free to explore our live demonstration at the following link: [Project](https://avsoto.github.io/soku/).
+For an immersive experience of the Soku website in action, feel free to explore our live demonstration at the following link: [Project](https://soku-iota.vercel.app/).
